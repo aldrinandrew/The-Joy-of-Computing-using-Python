@@ -1,4 +1,4 @@
-#Introduction
+#PART1- INTRODUCTION
 #List_ Lists are Flexible Data Structure in which you can add and delete items easily
 
 shopping = ["Bread","Coffee","Sugar"]
@@ -11,7 +11,7 @@ for item in shopping:
 shopping.append("Curd")
 print(shopping)
 
-# LIST MANIPULATION
+# PART-2 LIST MANIPULATION
 
 #Index is the position of items in the list
 
@@ -56,3 +56,37 @@ print(len(shopping))
 
 for i in range(2):
     print(shopping[i])
+
+#PART-3 LIST OPERATORS
+
+print(ages)
+
+# If the list is sorted we can get an idea
+
+# Sorting Algorithm Technique_ Bubble Sort, Quick Sort, Merge Sort
+
+#Here we are not using any of these algorithm
+ages.sort()
+print(ages)
+
+#Reverse sorting
+
+ages.reverse()
+print(ages)
+
+
+
+# Considering students data set
+
+students = ["Arun","Rajesh","Harish","Akanksha","Lakshmi","Varsha"]
+print(students)
+students.sort()
+print(students)
+
+
+#If you want to assign the roll numbers, you can insert some dummy value to the list in index 0
+
+students.insert(0,"Dummy")
+print(students)
+
+# SLICING IS THE OPERATION IN WHICH YOU CAN GET A SUBSET OF THE LIST
