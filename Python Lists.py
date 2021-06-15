@@ -90,3 +90,30 @@ students.insert(0,"Dummy")
 print(students)
 
 # SLICING IS THE OPERATION IN WHICH YOU CAN GET A SUBSET OF THE LIST
+
+# PART- 4 SLICING
+
+# list_name[start_index:end_index+1]  is the syntax
+
+print(students[1:5])
+
+
+print(students[:])     # Take the entire values
+
+
+print(students[3:])
+
+print(students[:5])
+
+
+# Default start index is zero and default end index i length of the list
+
+
+
+
+
+
+
+
+
+
