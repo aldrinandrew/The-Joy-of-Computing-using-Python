@@ -24,15 +24,43 @@ Output:
 
 Explanation:
 Here array A is [2,5,3,1] and reverse of this array is [1,3,5,2] and hence the resultant array is [3,8,8,3]
-"""
+
+# Basic example to take input from to the list
+
+lst = []
+n = int(input("Enter the number of inputs: "))
+for i in range(0, n):
+    ele = int(input())
+    lst.append(ele)
+
+print(lst)
+
+
+# Use map function to take input in single line
 
 n = int(input("Enter the number of elements: "))
-arr = []
-for i in range(0, n):
-    element = int(input())
-    arr.append(element)
-print(arr)
+arr = list(map(int, input("Enter the values").strip().split()))
 
-rev = [arr.reverse()]
-print(rev)
 
+# Use below to take input excluding space in last
+
+n = int(input("Enter the number of elements: "))
+a = [int(i) for i in input().split(" ")]
+print(a)
+
+"""
+
+n = int(input("Enter the number of elements"))
+a = [int(i) for i in input().split(" ")]
+b = []
+for i in range(len(a)-1, -1, -1):             # Reversing the list using for loop
+    b.append(a[i])
+c = []
+for i in range(len(b)):
+    c.append(a[i]+b[i])
+
+for i in range(len(c)):
+    if i == len(c)-1:
+        print(c[i])
+    else:
+        print(c[i], end=" ")
