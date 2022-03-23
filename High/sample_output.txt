@@ -1,0 +1,28 @@
+Number of employees: 6
+
+Here the goodies that are selected for distribution are: 
+Fitbit Plus: 7980
+Cult Pass: 2799
+Digital Camera: 11101
+Alexa: 9999
+Microwave Oven: 9800
+Scale: 4999
+And the difference between the chosen goodie with highest price and the lowest price is 8302
+
+
+Number of employees: 4
+
+Here the goodies that are selected for distribution are: 
+Fitbit Plus: 7980
+Digital Camera: 11101
+Alexa: 9999
+Microwave Oven: 9800
+And the difference between the chosen goodie with highest price and the lowest price is 3121
+
+
+Number of employees: 2
+
+Here the goodies that are selected for distribution are: 
+Digital Camera: 11101
+Alexa: 9999
+And the difference between the chosen goodie with highest price and the lowest price is 1102
